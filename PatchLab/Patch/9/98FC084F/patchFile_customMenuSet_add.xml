@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<CustomMenuSetCatalog>
+				<UUID>E6187E37-50DB-427F-95C1-299E92A05147</UUID>
+				<CustomMenuSetReference id="1" name="[Standard FileMaker Menus]" UUID="580A212E-CB9E-4B07-A471-94BA30943779"></CustomMenuSetReference>
+				<ObjectList>
+					<CustomMenuSet name="TestMenuSet" id="2" comment="My fancy TestMenuSet">
+						<UUID>DA841FB8-6DE8-4296-8873-C331C1B837B7</UUID>
+						<TagList></TagList>
+						<CustomMenuList>
+							<CustomMenuReference name="[Line Spacing]" id="12"></CustomMenuReference>
+							<CustomMenuReference name="[Recent]" id="4"></CustomMenuReference>
+						</CustomMenuList>
+					</CustomMenuSet>
+				</ObjectList>
+			</CustomMenuSetCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

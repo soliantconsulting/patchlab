@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+
+			<CustomFunctionsCatalog>
+				<UUID>7DBC5B94-A42B-4708-8119-06941CD4B63E</UUID>
+				<TagList></TagList>
+				<ObjectList>
+					<CustomFunction name="FooBar" access="All">
+						<UUID>26D7AC48-F2BF-4BDE-94AD-DA1BFEAEEDC0</UUID>
+						<TagList></TagList>
+						<Display>FooBar</Display>
+					</CustomFunction>
+				</ObjectList>
+			</CustomFunctionsCatalog>
+
+			<CalcsForCustomFunctions>
+				<ObjectList>
+					<CustomFunctionCalc>
+						<CustomFunctionReference name="FooBar" UUID="26D7AC48-F2BF-4BDE-94AD-DA1BFEAEEDC0"></CustomFunctionReference>
+						<Calculation>
+							<Text><![CDATA["foobar"]]></Text>
+						</Calculation>
+					</CustomFunctionCalc>
+				</ObjectList>
+			</CalcsForCustomFunctions>
+
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

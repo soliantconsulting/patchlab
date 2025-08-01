@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+			<StepsForScripts>
+				<Script>
+					<ScriptReference id="6" name="HelloWorld" UUID="CAD05CAF-86CE-4D51-A4B8-D6FCF08E34FE"></ScriptReference>
+					<ObjectList membercount="2">
+						<Step hash="30FEA1F4AAF00B37403BFB2AFF8C55C2" index="0" id="89" name="# (comment)" enable="True">
+							<UUID>7D5E493D-E6B3-476C-9D24-7D64EDC9EFAE</UUID>
+							<OwnerID></OwnerID>
+							<Options>4</Options>
+							<DDRREF kind="StepText" hash="C9F4AE319EF4BB69E846E7AC7F37C0FE">_7D5E493D-E6B3-476C-9D24-7D64EDC9EFAE</DDRREF>
+							<ParameterValues membercount="1">
+								<Parameter type="Comment">
+									<Comment value="A simple hello world script"></Comment>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step hash="1A1A90115AA1B8F416548BAA69C014EB" index="1" id="87" name="Show Custom Dialog" enable="True">
+							<UUID>76D9B1F5-6F0C-434C-90CF-03784EC3005C</UUID>
+							<OwnerID></OwnerID>
+							<Options>16389</Options>
+							<DDRREF kind="StepText" hash="1A378256222347FC81B49B9993AF13BE">_76D9B1F5-6F0C-434C-90CF-03784EC3005C</DDRREF>
+							<ParameterValues membercount="4">
+								<Parameter type="Message">
+									<Calculation datatype="1" position="1">
+										<Calculation>
+											<DDRREF kind="ChunkList" hash="B743D1FC7650CF81B8022188B3304AF0">_76D9B1F5-6F0C-434C-90CF-03784EC3005C_1</DDRREF>
+											<Text><![CDATA["Hello world!"]]></Text>
+										</Calculation>
+									</Calculation>
+								</Parameter>
+								<Parameter type="Button1" value="OK">
+									<Boolean type="Commit" value="True"></Boolean>
+								</Parameter>
+								<Parameter type="Button2">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+								<Parameter type="Button3">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>
+			</StepsForScripts>
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<StepsForScripts>
+				<Script>
+					<ScriptReference id="1" name="TestScript" UUID="776B9189-993E-48A3-A41A-09210D0149E8"></ScriptReference>
+					<ObjectList>
+						<Step hash="2F172B44E2484D9B988B505442ABEEB9" index="4" id="87" name="Show Custom Dialog" enable="True">
+							<UUID>89C22D29-1DF8-4792-B63C-FCC76DA856ED</UUID>
+							<OwnerID></OwnerID>
+							<Options>16389</Options>
+							<ParameterValues membercount="4">
+								<Parameter type="Message">
+									<Calculation datatype="1" position="1">
+										<Calculation>
+											<Text><![CDATA[$helloWorld]]></Text>
+										</Calculation>
+									</Calculation>
+								</Parameter>
+								<Parameter type="Button1" value="OK">
+									<Boolean type="Commit" value="True"></Boolean>
+								</Parameter>
+								<Parameter type="Button2">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+								<Parameter type="Button3">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>
+			</StepsForScripts>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

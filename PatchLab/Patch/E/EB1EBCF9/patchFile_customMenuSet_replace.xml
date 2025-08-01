@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="CustomMenuSet" UUID="28EA721A-01C4-4F4E-8D43-18B3026E8A9F">
+				<CustomMenuSet name="TestMenuSet2" id="999" comment="TestMenuSet comment2">
+						<UUID>28EA721A-01C4-4F4E-8D43-18B3026E8A9F</UUID>
+						<CustomMenuList>
+							<CustomMenuReference name="[Sharing]" id="13"></CustomMenuReference>
+							<CustomMenuReference name="[Spelling]" id="18"></CustomMenuReference>
+							<CustomMenuReference name="[Hosts]" id="24"></CustomMenuReference>
+						</CustomMenuList>
+					</CustomMenuSet>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

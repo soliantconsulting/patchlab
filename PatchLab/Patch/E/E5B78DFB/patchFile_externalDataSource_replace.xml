@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="ExternalDataSource" UUID="EAFF6062-DD1B-4B73-9153-6D17E5BB137B">
+				<ExternalDataSource name="TestFile_renamed" type="FileMaker" id="1">
+					<File>
+						<UniversalPathList>file:TestFile1&#13;file:TestFile3&#13;file:TestFile4</UniversalPathList>
+					</File>
+					<UUID>EAFF6062-DD1B-4B73-9153-6D17E5BB137B</UUID>
+					<TagList></TagList>
+				</ExternalDataSource>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

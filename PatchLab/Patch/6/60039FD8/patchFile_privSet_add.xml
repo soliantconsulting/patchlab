@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+			<PrivilegeSetsCatalog>
+				<UUID userName="Mislav" accountName="Admin" timestamp="2025-06-16T19:45:24">
+					98B2706A-36C6-40D8-906C-6BC2B456A80F</UUID>
+				<ObjectList>
+					<PrivilegeSet id="5" name="SimplePrivSet1">
+						<UUID userName="Mislav" accountName="Admin" timestamp="2025-06-16T19:45:23">
+							A2A3DFA4-06B2-4AA9-A608-7FE60DE6E425</UUID>
+						<Description></Description>
+						<access>
+							<Records Create="True" Edit="True" Delete="False"></Records>
+							<Layouts View="ReadOnly"></Layouts>
+							<ValueLists Create="True" Edit="True" Delete="True"></ValueLists>
+							<Scripts View="ReadOnly"></Scripts>
+							<Other value="24577" Print="False" Export="False" manageAccounts="False"
+								manageExtPrivs="False" allowOverride="False" allowOpenQuickly="False"
+								disconnectIdle="True" commands="All">
+								<Password prohibitModification="True"></Password>
+							</Other>
+						</access>
+					</PrivilegeSet>
+				</ObjectList>
+			</PrivilegeSetsCatalog>
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

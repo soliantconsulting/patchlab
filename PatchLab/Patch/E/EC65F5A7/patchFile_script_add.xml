@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+
+			<!-- Adds script stub (no steps) -->
+			<ScriptCatalog>
+				<Script id="6" name="Foo bar">
+					<UUID modifications="2" userName="Mislav" accountName="Admin" timestamp="2025-06-19T16:53:40">803322BD-EF15-4363-A90F-4622DE9CE98C</UUID>
+					<Options hidden="False" access="ReadWrite" SiriShortcutVisible="False" runwithfullaccess="False" compatibility="0">0</Options>
+					<TagList></TagList>
+				</Script>
+			</ScriptCatalog>
+
+			<!-- Adds script step; script stub must already exist or be specified above -->
+			<StepsForScripts>
+				<Script>
+					<ScriptReference id="6" name="Foo bar" UUID="803322BD-EF15-4363-A90F-4622DE9CE98C"></ScriptReference>
+					<ObjectList membercount="1">
+						<Step hash="973075AD7CB69BDF101E1C5B1BE5098E" index="0" id="87" name="Show Custom Dialog" enable="True">
+							<UUID>BE59F0AE-6EFF-40D3-B333-9006FCB61D95</UUID>
+							<OwnerID></OwnerID>
+							<Options>16389</Options>
+							<ParameterValues membercount="4">
+								<Parameter type="Message">
+									<Calculation datatype="1" position="1">
+										<Calculation>
+											<Text><![CDATA["bla bla bla"]]></Text>
+										</Calculation>
+									</Calculation>
+								</Parameter>
+								<Parameter type="Button1" value="OK">
+									<Boolean type="Commit" value="True"></Boolean>
+								</Parameter>
+								<Parameter type="Button2">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+								<Parameter type="Button3">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>
+			</StepsForScripts>
+
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

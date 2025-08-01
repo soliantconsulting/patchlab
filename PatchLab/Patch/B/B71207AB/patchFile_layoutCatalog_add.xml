@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<LayoutCatalog>
+				<UUID>B3098D6C-C60A-44AA-9282-2C1382ED10A1</UUID>
+				<TagList></TagList>
+				<Layout name="TestLayout" width="1024">
+					<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+					<LayoutThemeReference id="1" name="com.filemaker.theme.apex_blue" UUID="F0D3F68D-B37B-490B-87CA-4723140E0F31" Base="com.filemaker.theme.minimalist_touch"></LayoutThemeReference>
+					<PartsList membercount="1">
+						<Part type="Body" kind="4">
+							<Definition type="Body" kind="4" size="658" absolute="0" Options="0"></Definition>
+							<ObjectList membercount="2">
+								<LayoutObject hash="00A2E994E26F30C1EEF012D8FB182075" id="3" type="Edit Box" name="" kind="1">
+									<UUID>C50ED36D-1296-4EF4-9FFB-F365BF4C3C53</UUID>
+									<Bounds top="313" left="385" bottom="344" right="638"></Bounds>
+									<Options>805306368</Options>
+									<Field>
+										<FieldReference id="1" name="PrimaryKey" repetition="1" UUID="221BDEE0-C466-4803-AA6B-71698930A9C7">
+											<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+										</FieldReference>
+										<Options>1048608</Options>
+										<Display Style="0" show="1"></Display>
+										<Usage inputMode="0" type="1"></Usage>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"></Color>
+													</Negative>
+												</Style>
+												<DecimalDigits>2</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+								</LayoutObject>
+								<LayoutObject hash="BDB1CC72271FDB731EDF61A0AA9ADF8B" id="5" type="Text" name="" kind="2">
+									<UUID>844C394F-5996-409F-9E52-816D16CFE90F</UUID>
+									<Bounds top="252" left="466" bottom="274" right="547"></Bounds>
+									<Options>805306368</Options>
+									<Text>
+										<Options>0</Options>
+										<StyledText>
+											<Data><![CDATA[TestLayout]]></Data>
+										</StyledText>
+									</Text>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+					</PartsList>
+					<UUID>00DFADBD-43F5-49E1-A820-D0D836B83465</UUID>
+					<TagList></TagList>
+					<GridStyle>
+						<Color red="0.500000" green="0.500000" blue="0.500000" alpha="1.000000"></Color>
+						<Style>5</Style>
+					</GridStyle>
+					<ClientType>3</ClientType>
+					<Options hidden="False">64708872205</Options>
+					<MenuSet>
+						<CustomMenuSetReference id="0" name="[File Default]" UUID=""></CustomMenuSetReference>
+					</MenuSet>
+				</Layout>
+			</LayoutCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

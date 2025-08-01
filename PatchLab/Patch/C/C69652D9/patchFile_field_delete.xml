@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+  <Structure>
+    <DeleteAction>
+
+      <ItemReference UUID="DE71D040-C1D3-4430-BBDB-3FA03A2BD24E" type="FieldReference">
+        <BaseTableReference id="129" name="TestTable" UUID="471CCAC6-9046-4B2E-BD66-03EEAE88170B"></BaseTableReference>
+      </ItemReference>
+
+    </DeleteAction>
+  </Structure>
+</FMUpgradeToolPatch>

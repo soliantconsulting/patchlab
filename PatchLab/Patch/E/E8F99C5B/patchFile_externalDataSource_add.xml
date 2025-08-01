@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<ExternalDataSourceCatalog membercount="1">
+				<UUID>B2229C9B-A7A5-4215-8772-E702DD47B00D</UUID>
+				<ExternalDataSource name="TestFile" type="FileMaker">
+					<File>
+						<UniversalPathList>file:TestFile</UniversalPathList>
+					</File>
+					<UUID>7374E00E-E449-4EFA-8507-10AB5C62781D</UUID>
+				</ExternalDataSource>
+			</ExternalDataSourceCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

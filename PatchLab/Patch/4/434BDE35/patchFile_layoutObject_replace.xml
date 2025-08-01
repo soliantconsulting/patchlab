@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+
+			<LayoutCatalog>
+				<UUID>B3098D6C-C60A-44AA-9282-2C1382ED10A1</UUID>
+				<TagList></TagList>
+				<Layout>
+					
+					<PartsList>
+						<Part>
+							<ObjectList>
+
+								<LayoutObject hash="9B707B4F54F814D54E3851888871C2D6" id="2" type="Text" name="" kind="2">
+									<UUID>CFEAB034-F6B2-4327-92BA-E1AE80E0F36A</UUID>
+									<Bounds top="299" left="258" bottom="321" right="342"></Bounds>
+									<Options>0</Options>
+									<Text>
+										<Options>0</Options>
+										<StyledText>
+											<Data><![CDATA[Hello world]]></Data>
+										</StyledText>
+									</Text>
+								</LayoutObject>
+
+							</ObjectList>
+						</Part>
+					</PartsList>
+				</Layout>
+			</LayoutCatalog>
+
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

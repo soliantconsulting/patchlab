@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+			<FieldsForTables membercount="2">
+				<FieldCatalog>
+					<UUID modifications="26" userName="Mislav" accountName="Admin"
+						timestamp="2025-06-10T15:44:32">2F865027-544A-4969-BCC1-DC7B4D7B1FEA</UUID>
+					<TagList></TagList>
+					<BaseTableReference id="129" name="TestTable" UUID="471CCAC6-9046-4B2E-BD66-03EEAE88170B"></BaseTableReference>
+					<ObjectList membercount="13">
+						<Field id="18" name="MyNewField" fieldtype="Normal" datatype="Text"
+							comment="Created 2025-06-10">
+							<UUID modifications="2" userName="Mislav" accountName="Admin"
+								timestamp="2025-06-10T15:44:32">59C0A894-503D-4D51-9B87-A6AE8F9F3914</UUID>
+							<AutoEnter type="" prohibitModification="False"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False"
+								unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList></TagList>
+						</Field>
+					</ObjectList>
+				</FieldCatalog>
+			</FieldsForTables>
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

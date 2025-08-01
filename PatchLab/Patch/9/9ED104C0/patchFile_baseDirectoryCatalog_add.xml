@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<BaseDirectoryCatalog>
+				<BaseDirectory name="MyNewBaseDirectory" id="1" relativeTo="True">
+					<UUID>89FE90AC-BF17-4F14-9B6C-2509BC8A5596</UUID>
+				</BaseDirectory>
+			</BaseDirectoryCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

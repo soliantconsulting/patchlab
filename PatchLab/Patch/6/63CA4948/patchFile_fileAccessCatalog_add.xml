@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<FileAccessCatalog sameHost="False" required="True">
+				<UUID>97E5A1BC-4A84-4671-A36B-89CFA970E54A</UUID>
+				<ObjectList>
+					<Authorization id="3" type="External">
+						<Source CreationTimestamp="07/27/2025 11:02:41 PM" CreationAccountName="Admin"></Source>
+						<UUID>18972CC2-0BA8-40C2-A32F-C06FB5E5B30C</UUID>
+						<Display><![CDATA[TestApp]]></Display>
+						<Authentication>715B7E6E6E9C20DECA6A39C84B3527236D631530246964B433D57A58779C8F5C</Authentication>
+						<TagList></TagList>
+					</Authorization>
+				</ObjectList>
+			</FileAccessCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

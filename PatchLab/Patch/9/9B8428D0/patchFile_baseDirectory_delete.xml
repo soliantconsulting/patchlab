@@ -1,0 +1,1 @@
+<?xml version="1.0"?><FMUpgradeToolPatch version="2.2.3.0">	<Structure>		<DeleteAction>			<ItemReference UUID="E57A0BE2-648B-440F-89A2-0D2AC9FEBF39" type="BaseDirectoryReference">			</ItemReference>		</DeleteAction>	</Structure></FMUpgradeToolPatch>

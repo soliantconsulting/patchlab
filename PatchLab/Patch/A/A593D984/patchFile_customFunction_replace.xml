@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="CustomFunction" UUID="9F3EA132-4043-41CA-9256-44F01FE53267">
+				<CustomFunction id="3" name="Foobar" access="All">
+						<UUID modifications="2" userName="Mislav" accountName="Admin" timestamp="2025-05-06T20:41:43">9F3EA132-4043-41CA-9256-44F01FE53267</UUID>
+						<TagList></TagList>
+						<Display>Foobar ( foo )</Display>
+						<ObjectList membercount="1">
+							<Parameter name="foo"></Parameter>
+						</ObjectList>
+					</CustomFunction>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

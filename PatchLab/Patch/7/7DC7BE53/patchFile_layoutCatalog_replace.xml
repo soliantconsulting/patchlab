@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="Layout" UUID="80144DCE-4339-4E1A-8734-A1A77E015B87">
+				<Layout id="1" name="Changed" width="600">
+					<UUID>80144DCE-4339-4E1A-8734-A1A77E015B87</UUID>
+				</Layout>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

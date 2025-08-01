@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+
+			<LayoutCatalog>
+				<UUID>B3098D6C-C60A-44AA-9282-2C1382ED10A1</UUID>
+				<TagList></TagList>
+				<Layout>
+					
+					<PartsList>
+						<Part>
+							<ObjectList>
+								<LayoutObject>
+									<UUID>F6536C3B-268C-44D4-A2B8-3EF1FEBEFC2D</UUID>
+									<Bounds top="265" left="210" bottom="355" right="390"></Bounds>
+									<Options>805371912</Options>
+									<Button>
+										<Options>0</Options>
+										<Label>
+											<Text>
+												<Options>2</Options>
+												<StyledText>
+													<Data><![CDATA[Hello World]]></Data>
+												</StyledText>
+											</Text>
+										</Label>
+										<IconData type="0" size="16"></IconData>
+										<action>
+											<Step hash="F49D3F179183074F7A1B91CBA59FE1D6" index="0" id="87" name="Show Custom Dialog" enable="True">
+												<UUID>341066CD-774D-4C2A-91E4-94E3BFEF22E5</UUID>
+												<OwnerID></OwnerID>
+												<Options>16389</Options>
+												<ParameterValues membercount="4">
+													<Parameter type="Message">
+														<Calculation datatype="1" position="1">
+															<Calculation>
+																<Text><![CDATA["Hello World"]]></Text>
+															</Calculation>
+														</Calculation>
+													</Parameter>
+													<Parameter type="Button1" value="OK">
+														<Boolean type="Commit" value="True"></Boolean>
+													</Parameter>
+													<Parameter type="Button2">
+														<Boolean type="Commit" value="False"></Boolean>
+													</Parameter>
+													<Parameter type="Button3">
+														<Boolean type="Commit" value="False"></Boolean>
+													</Parameter>
+												</ParameterValues>
+											</Step>
+										</action>
+									</Button>
+									<LocalCSS name="primary_button" displayName="Primary"><![CDATA[self.primary_button
+		{
+		}
+		]]></LocalCSS>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+					</PartsList>
+				</Layout>
+			</LayoutCatalog>
+
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

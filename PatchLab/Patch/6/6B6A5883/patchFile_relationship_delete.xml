@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<DeleteAction>
+			<ItemReference UUID="0916C745-DEFC-4CD9-B562-FFBDE0225B4E" type="RelationshipReference">
+			</ItemReference>
+		</DeleteAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

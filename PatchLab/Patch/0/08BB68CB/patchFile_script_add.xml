@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+			<ScriptCatalog>
+				<Script id="6" name="HelloWorld">
+					<UUID modifications="4" userName="Mislav" accountName="Admin" timestamp="2025-06-11T18:29:47">CAD05CAF-86CE-4D51-A4B8-D6FCF08E34FE</UUID>
+					<Options hidden="False" access="ReadWrite" SiriShortcutVisible="False" runwithfullaccess="False" compatibility="0">0</Options>
+				</Script>
+			</ScriptCatalog>
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

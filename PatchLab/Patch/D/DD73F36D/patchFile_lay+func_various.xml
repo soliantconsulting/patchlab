@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+			<CustomFunctionsCatalog membercount="1">
+				<UUID modifications="3" userName="Mislav" accountName="Admin"
+					timestamp="2025-06-13T08:22:53">6BEFF355-FFB6-4817-AFF7-A698659A1305</UUID>
+				<TagList></TagList>
+				<ObjectList membercount="1">
+					<CustomFunction id="1" name="TooltipCustomFunction" access="All">
+						<UUID modifications="1" userName="Mislav" accountName="Admin"
+							timestamp="2025-06-13T08:22:52">E20BDFBA-2A65-43F1-A706-12B770E9FE02</UUID>
+						<TagList></TagList>
+						<Display>TooltipCustomFunction</Display>
+					</CustomFunction>
+				</ObjectList>
+			</CustomFunctionsCatalog>
+			<CalcsForCustomFunctions membercount="1">
+				<ObjectList membercount="1">
+					<CustomFunctionCalc>
+						<CustomFunctionReference id="1" name="TooltipCustomFunction"
+							UUID="E20BDFBA-2A65-43F1-A706-12B770E9FE02"></CustomFunctionReference>
+						<Calculation>
+							<DDRREF kind="ChunkList" hash="1B7830DEF05756BE080679A11A95BFB6">
+								_E20BDFBA-2A65-43F1-A706-12B770E9FE02</DDRREF>
+							<Text><![CDATA["This tooltip comes from a custom function"]]></Text>
+						</Calculation>
+					</CustomFunctionCalc>
+				</ObjectList>
+			</CalcsForCustomFunctions>
+		</AddAction>
+		<ReplaceAction>
+			<Replace type="LayoutObject" UUID="765AE910-FF7F-460E-93B8-2294E7E9CBA3">
+				<LayoutObject hash="A610890C2FBE8FC16B82B1E013F1F50E" id="1" type="Button" name="" kind="10">
+					<UUID>765AE910-FF7F-460E-93B8-2294E7E9CBA3</UUID>
+					<Bounds top="126" left="133" bottom="177" right="333"></Bounds>
+					<Options>81928</Options>
+					<Button>
+						<Options>0</Options>
+						<Label>
+							<Text>
+								<Options>2</Options>
+								<StyledText>
+									<Data><![CDATA[MyButton]]></Data>
+								</StyledText>
+							</Text>
+						</Label>
+						<IconData type="0" size="16"></IconData>
+						<action>
+							<Step hash="53704AB49DB84EC32C1F17212B8AB678" index="0" id="87"
+								name="Show Custom Dialog" enable="True">
+								<UUID>AF98D67D-0ACE-4412-8B59-88781CB50DAD</UUID>
+								<OwnerID></OwnerID>
+								<Options>16389</Options>
+								<ParameterValues membercount="4">
+									<Parameter type="Message">
+										<Calculation datatype="1" position="1">
+											<Calculation>
+												<Text><![CDATA["This button has a tooltip"]]></Text>
+											</Calculation>
+										</Calculation>
+									</Parameter>
+									<Parameter type="Button1" value="OK">
+										<Boolean type="Commit" value="True"></Boolean>
+									</Parameter>
+									<Parameter type="Button2">
+										<Boolean type="Commit" value="False"></Boolean>
+									</Parameter>
+									<Parameter type="Button3">
+										<Boolean type="Commit" value="False"></Boolean>
+									</Parameter>
+								</ParameterValues>
+							</Step>
+						</action>
+					</Button>
+					<LocalCSS name="large_filled_button" displayName="Large Filled"><![CDATA[self.large_filled_button
+{
+}
+]]></LocalCSS>
+					<Tooltip>
+						<Calculation>
+							<Text><![CDATA[TooltipCustomFunction]]></Text>
+						</Calculation>
+					</Tooltip>
+				</LayoutObject>
+			</Replace>
+		</ReplaceAction>
+	</Structure>
+</FMUpgradeToolPatch>

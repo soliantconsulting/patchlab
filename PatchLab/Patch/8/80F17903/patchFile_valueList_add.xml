@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<ValueListCatalog>
+				<UUID>DB4772AF-9024-46C3-8D22-948C118BB2D1</UUID>
+				<TagList></TagList>
+				<ValueList id="1" name="TestValueList">
+					<Source value="FromField"></Source>
+					<UUID>4DB38588-BE35-4B59-B861-54D0DA94CC4F</UUID>
+					<TagList></TagList>
+				</ValueList>
+			</ValueListCatalog>
+			<OptionsForValueLists>
+				<ValueList>
+					<ValueListReference id="1" name="TestValueList" UUID="4DB38588-BE35-4B59-B861-54D0DA94CC4F"></ValueListReference>
+					<Source value="FromField"></Source>
+					<Field>
+						<PrimaryField show="False" sort="False">
+							<FieldReference id="1" name="PrimaryKey" UUID="221BDEE0-C466-4803-AA6B-71698930A9C7">
+								<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+							</FieldReference>
+						</PrimaryField>
+						<SecondaryField show="True" sort="True">
+							<FieldReference id="4" name="ModificationTimestamp" UUID="47904DC1-FF6D-41D6-B38B-FF5E26002FF4">
+								<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+							</FieldReference>
+							<LanguageReference name="English" id="21"></LanguageReference>
+						</SecondaryField>
+						<ShowRelated value="False"></ShowRelated>
+					</Field>
+				</ValueList>
+			</OptionsForValueLists>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="ValueList" UUID="4DB38588-BE35-4B59-B861-54D0DA94CC4F">
+				<ValueList id="1" name="TestValueList2">
+					<UUID>4DB38588-BE35-4B59-B861-54D0DA94CC4F</UUID>
+					<Source value="FromField"></Source>
+					<Field>
+						<PrimaryField show="True" sort="True">
+							<FieldReference id="3" name="CreatedBy" UUID="C7E2EC37-436B-469D-972B-0A29E1E15B6B">
+								<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+							</FieldReference>
+							<LanguageReference name="Finnish" id="22"></LanguageReference>
+						</PrimaryField>
+						<ShowRelated value="False"></ShowRelated>
+					</Field>
+				</ValueList>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

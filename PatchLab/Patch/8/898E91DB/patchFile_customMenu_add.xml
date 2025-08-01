@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<CustomMenuCatalog>
+				<UUID>8A880FA3-34C4-4BE3-A72A-0F2185598987</UUID>
+				<CustomMenu name="TestMenu" id="25">
+					<UUID>02DAD2B7-7AED-4342-8C35-35A0A79374E1</UUID>
+					<TagList></TagList>
+					<MenuItemList membercount="3">
+						<CustomMenuItem hash="6355A6558B9BD93FE9F7F183854A994D" index="0" isSubMenuItem="False" isSeparatorItem="False">
+							<UUID>CA609F93-632B-4587-9B95-18917027BB19</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Command name="Cascade Windows" id="57650"></Command>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+						<CustomMenuItem hash="BDE33E5A41E944B360F5875CD756FE1A" index="1" isSubMenuItem="False" isSeparatorItem="True">
+							<UUID>D622E3E1-FDF5-4D2B-AAD4-3C251CEAA562</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+						<CustomMenuItem hash="F5CA4B9E3A77D1993C27331DE611FBE5" index="2" isSubMenuItem="False" isSeparatorItem="False">
+							<UUID>D29FC1AB-04E5-4C5E-A79F-228174F8188F</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Command name="Clear" id="57632"></Command>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+					</MenuItemList>
+					<Conditions>
+						<Install>
+							<Calculation>
+								<Text><![CDATA[1]]></Text>
+							</Calculation>
+						</Install>
+					</Conditions>
+					<Comment></Comment>
+					<Options browseMode="True" findMode="True" previewMode="True">
+						<Override>
+							<Title>
+								<Calculation>
+									<Text><![CDATA["TestMenuTitle"]]></Text>
+								</Calculation>
+							</Title>
+						</Override>
+					</Options>
+				</CustomMenu>
+			</CustomMenuCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<ReplaceAction>
+			<Replace type="Script" UUID="CAD05CAF-86CE-4D51-A4B8-D6FCF08E34FE">
+				<Script>
+					<ScriptReference id="6" name="HelloWorld2" UUID="CAD05CAF-86CE-4D51-A4B8-D6FCF08E34FE"></ScriptReference>
+					<ObjectList membercount="2">
+						<Step hash="7D79B2121942C414F3FBE7D653898FB2" index="0" id="89" name="# (comment)" enable="True">
+							<UUID>7D5E493D-E6B3-476C-9D24-7D64EDC9EFAE</UUID>
+							<OwnerID></OwnerID>
+							<Options>4</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Comment">
+									<Comment value="A simple hello world script - renamed"></Comment>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step hash="5FE8772A75901E8CD6CAA1BF273CF2FC" index="1" id="87" name="Show Custom Dialog" enable="True">
+							<UUID>76D9B1F5-6F0C-434C-90CF-03784EC3005C</UUID>
+							<OwnerID></OwnerID>
+							<Options>16389</Options>
+							<ParameterValues membercount="4">
+								<Parameter type="Message">
+									<Calculation datatype="1" position="1">
+										<Calculation>
+											<Text><![CDATA["Hello world renamed!"]]></Text>
+										</Calculation>
+									</Calculation>
+								</Parameter>
+								<Parameter type="Button1" value="OK">
+									<Boolean type="Commit" value="True"></Boolean>
+								</Parameter>
+								<Parameter type="Button2">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+								<Parameter type="Button3">
+									<Boolean type="Commit" value="False"></Boolean>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>
+			</Replace>
+		</ReplaceAction>
+	</Structure>
+</FMUpgradeToolPatch>

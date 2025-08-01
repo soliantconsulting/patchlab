@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+		<AddAction>
+
+			<BaseTableCatalog>
+				<BaseTable id="134" comment="" name="Invoice">
+					<UUID modifications="1" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">7CD3CEC4-9CA2-4290-B207-1FBE60EACB07</UUID>
+					<TagList></TagList>
+				</BaseTable>
+			</BaseTableCatalog>
+
+			<FieldsForTables>
+				<FieldCatalog>
+					<UUID modifications="4" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:36:08">425E16A1-A078-4260-9408-CABD503E652B</UUID>
+					<TagList></TagList>
+					<BaseTableReference id="135" name="Invoice" UUID="7CD3CEC4-9CA2-4290-B207-1FBE60EACB07"></BaseTableReference>
+					<ObjectList membercount="8">
+						<Field id="1" name="PrimaryKey" fieldtype="Normal" datatype="Text" comment="Unique identifier of each record in this table">
+							<UUID modifications="0" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">81228A4B-55B5-49B4-9E3F-4F7E952A98CD</UUID>
+							<AutoEnter type="Calculated" prohibitModification="True" overwriteExisting="True" alwaysEvaluate="False">
+								<Calculated>
+									<Calculation>
+										<TableOccurrenceReference id="1065096" name="Invoice" UUID="937D5066-5548-4C8D-9595-0F8CA81845D0"></TableOccurrenceReference>
+										<Text><![CDATA[Get( UUID )]]></Text>
+									</Calculation>
+								</Calculated>
+							</AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="True" existing="False"></Validation>
+							<Storage autoIndex="True" index="Minimal" global="False" maxRepetitions="1">
+								<LanguageReference name="Unicode" id="2"></LanguageReference>
+							</Storage>
+							<TagList primary="True">#^FMI* #_FMI_0 </TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="2" name="CreationTimestamp" fieldtype="Normal" datatype="Timestamp" comment="Date and time each record was created">
+							<UUID modifications="0" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">B03912FF-60F0-4BD0-BAA5-644B1B88A91B</UUID>
+							<AutoEnter type="CreationTimestamp" prohibitModification="True"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False">
+								<Strict>FourDigitYear</Strict>
+							</Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="3" name="CreatedBy" fieldtype="Normal" datatype="Text" comment="Account name of the user who created each record">
+							<UUID modifications="0" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">5109A703-5EC4-41E2-8BA4-DEC8333B57CE</UUID>
+							<AutoEnter type="CreationAccountName" prohibitModification="True"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="4" name="ModificationTimestamp" fieldtype="Normal" datatype="Timestamp" comment="Date and time each record was last modified">
+							<UUID modifications="0" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">1C5CDAC5-7220-4F8A-9F74-3F6DADEEDDFF</UUID>
+							<AutoEnter type="ModificationTimestamp" prohibitModification="True"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False">
+								<Strict>FourDigitYear</Strict>
+							</Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="5" name="ModifiedBy" fieldtype="Normal" datatype="Text" comment="Account name of the user who last modified each record">
+							<UUID modifications="0" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:35:47">767E48E8-FD43-4BCA-89A3-D3BD0FCF2421</UUID>
+							<AutoEnter type="ModificationAccountName" prohibitModification="True"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="6" name="InvoiceNo" fieldtype="Normal" datatype="Text" comment="">
+							<UUID modifications="1" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:36:08">C540347C-C364-44EC-B879-DAF1F5505D1B</UUID>
+							<AutoEnter type="" prohibitModification="False"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList></TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="7" name="DueDate" fieldtype="Normal" datatype="Date" comment="">
+							<UUID modifications="1" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:36:08">4D5B6272-98AA-467F-8399-332DEF3C4381</UUID>
+							<AutoEnter type="" prohibitModification="False"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList></TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+						<Field id="8" name="Notes" fieldtype="Normal" datatype="Text" comment="">
+							<UUID modifications="1" userName="Mislav" accountName="admin" timestamp="2025-07-25T10:36:08">86E6B594-7201-4C7D-8243-492FC459A0DC</UUID>
+							<AutoEnter type="" prohibitModification="False"></AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"></Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"></LanguageReference>
+							</Storage>
+							<TagList></TagList>
+							<Annotation excludeDDL="False"></Annotation>
+							<DisplayNames enable="False"></DisplayNames>
+						</Field>
+					</ObjectList>
+				</FieldCatalog>
+			</FieldsForTables>
+
+		</AddAction>
+	</Structure>
+</FMUpgradeToolPatch>

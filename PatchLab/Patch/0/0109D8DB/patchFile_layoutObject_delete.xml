@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<DeleteAction>
+			<ItemReference UUID="F369DB86-701C-4811-8F39-196985458239" type="LayoutObjectReference">
+				<LayoutReference UUID="80144DCE-4339-4E1A-8734-A1A77E015B87"></LayoutReference>
+			</ItemReference>
+		</DeleteAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="ExtendedPrivilege" UUID="1BA357B8-A7EB-4458-83CF-32AA367FE738">
+					<ExtendedPrivilege name="fmtest2">
+						<Description>Test ext priv2</Description>
+						<UUID>1BA357B8-A7EB-4458-83CF-32AA367FE738</UUID>
+						<ObjectList>
+							<PrivilegeSetReference id="3" name="[Read-Only Access]"></PrivilegeSetReference>
+						</ObjectList>
+					</ExtendedPrivilege>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

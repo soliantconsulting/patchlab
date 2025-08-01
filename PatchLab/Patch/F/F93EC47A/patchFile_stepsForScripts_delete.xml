@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+
+		<DeleteAction>
+			<ItemReference UUID="CA95B917-0AA4-40FC-872A-5F1C776258F4" type="ScriptStepReference">
+				<ScriptReference id="1" name="TestScript" UUID="E6735584-E1A2-4437-B9F2-20F9EF8FB697"></ScriptReference>
+			</ItemReference>
+		</DeleteAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

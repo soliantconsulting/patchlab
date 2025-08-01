@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<TableOccurrenceCatalog membercount="2">
+				<UUID>2F8AD42E-0010-46E3-ACEC-56DC01C173A5</UUID>
+				<TableOccurrence View="Full" height="86" id="1065090" name="Bare2" type="Local">
+					<UUID>4F5BEE06-D5AF-4CC2-A5EA-273AC947B0AA</UUID>
+					<BaseTableSourceReference type="BaseTableReference">
+						<BaseTableReference id="129" name="Bare" UUID="30A70A97-C92B-408B-90F7-BE8F2AF39E9E"></BaseTableReference>
+					</BaseTableSourceReference>
+					<CoordRect top="54" left="254" bottom="170" right="385"></CoordRect>
+					<Color red="119" green="119" blue="119" alpha="1.00"></Color>
+				</TableOccurrence>
+			</TableOccurrenceCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

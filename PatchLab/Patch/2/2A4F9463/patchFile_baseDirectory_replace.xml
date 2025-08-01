@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+  <Structure>
+    <ReplaceAction>
+      <Replace type="BaseDirectory" UUID="E57A0BE2-648B-440F-89A2-0D2AC9FEBF39">
+        <BaseDirectory name="MyBaseDirectory_renamed/" id="1" relativeTo="True">
+          <UUID modifications="2" userName="Mislav" accountName="Admin" timestamp="2025-05-04T14:20:03">E57A0BE2-648B-440F-89A2-0D2AC9FEBF39</UUID>
+          <TagList></TagList>
+        </BaseDirectory>
+      </Replace>
+    </ReplaceAction>
+  </Structure>
+</FMUpgradeToolPatch>

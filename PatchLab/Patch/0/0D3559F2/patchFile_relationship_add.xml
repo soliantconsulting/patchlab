@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<AddAction>
+			<RelationshipCatalog>
+				<UUID>67A7AC63-184E-40D2-818D-D7DF565A0A32</UUID>
+				<Relationship id="1">
+					<UUID>1ADEFE97-AE05-4034-898C-98FCDFC03F1B</UUID>
+					<LeftTable cascadeCreate="False" cascadeDelete="True" type="Local">
+						<TableOccurrenceReference id="1065090" name="Bare2" UUID="D3E7ED52-56BD-4469-AB72-6FC24A35D9BE"></TableOccurrenceReference>
+						<SortSpecification value="True" maintain="True">
+							<SortList>
+								<Sort type="Ascending">
+									<PrimaryField>
+										<FieldReference id="1" name="PrimaryKey" UUID="221BDEE0-C466-4803-AA6B-71698930A9C7">
+											<TableOccurrenceReference id="1065090" name="Bare2" UUID="D3E7ED52-56BD-4469-AB72-6FC24A35D9BE"></TableOccurrenceReference>
+										</FieldReference>
+									</PrimaryField>
+								</Sort>
+							</SortList>
+						</SortSpecification>
+					</LeftTable>
+					<RightTable cascadeCreate="True" cascadeDelete="False" type="Local">
+						<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+					</RightTable>
+					<JoinPredicateList>
+						<JoinPredicate type="Equal">
+							<LeftField>
+								<FieldReference id="1" name="PrimaryKey" UUID="221BDEE0-C466-4803-AA6B-71698930A9C7">
+									<TableOccurrenceReference id="1065090" name="Bare2" UUID="D3E7ED52-56BD-4469-AB72-6FC24A35D9BE"></TableOccurrenceReference>
+								</FieldReference>
+							</LeftField>
+							<RightField>
+								<FieldReference id="1" name="PrimaryKey" UUID="221BDEE0-C466-4803-AA6B-71698930A9C7">
+									<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+								</FieldReference>
+							</RightField>
+						</JoinPredicate>
+					</JoinPredicateList>
+					<TagList></TagList>
+				</Relationship>
+			</RelationshipCatalog>
+		</AddAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

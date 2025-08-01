@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="Layout" UUID="80144DCE-4339-4E1A-8734-A1A77E015B87">
+				<Layout id="1" name="Changed" width="600">
+					<TableOccurrenceReference id="1065089" name="Bare" UUID="44BF8B72-48E3-46F3-B22B-C5CBC9966FEB"></TableOccurrenceReference>
+					<LayoutThemeReference id="1" name="com.filemaker.theme.apex_blue" UUID="F0D3F68D-B37B-490B-87CA-4723140E0F31" Base="com.filemaker.theme.minimalist_touch"></LayoutThemeReference>
+					<PartsList membercount="2">
+						<Part type="Top Navigation" kind="12">
+							<Definition type="Top Navigation" kind="12" size="110" absolute="0" Options="0"></Definition>
+						</Part>
+						<Part type="Body" kind="4">
+							<Definition type="Body" kind="4" size="400" absolute="110" Options="0"></Definition>
+						</Part>
+					</PartsList>
+					<UUID modifications="4" userName="Mislav" accountName="Admin" timestamp="2025-07-28T10:54:52">80144DCE-4339-4E1A-8734-A1A77E015B87</UUID>
+					<TagList></TagList>
+					<GridStyle>
+						<Color red="0.500000" green="0.500000" blue="0.500000" alpha="1.000000"></Color>
+						<Style>5</Style>
+					</GridStyle>
+					<ClientType>3</ClientType>
+					<Options hidden="False">64708872193</Options>
+					<MenuSet>
+						<CustomMenuSetReference id="0" name="[File Default]" UUID=""></CustomMenuSetReference>
+					</MenuSet>
+				</Layout>
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>

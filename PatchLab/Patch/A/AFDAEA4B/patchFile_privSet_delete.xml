@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+    <DeleteAction>
+      <ItemReference type="PrivilegeSetReference" UUID="A2A3DFA4-06B2-4AA9-A608-7FE60DE6E425">
+      </ItemReference>
+    </DeleteAction>
+	</Structure>
+</FMUpgradeToolPatch>

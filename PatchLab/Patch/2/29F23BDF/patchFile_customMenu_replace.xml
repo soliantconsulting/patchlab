@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<FMUpgradeToolPatch version="2.2.3.0">
+	<Structure>
+
+		<ReplaceAction>
+			<Replace type="CustomMenu" UUID="6B93A2C1-67D7-447B-A752-BB5EA3CE13B5">
+
+				<CustomMenu name="TestMenu2" id="25">
+					<UUID modifications="1" userName="Mislav" accountName="Admin" timestamp="2025-07-29T14:54:19">6B93A2C1-67D7-447B-A752-BB5EA3CE13B5</UUID>
+					<TagList></TagList>
+					<MenuItemList membercount="4">
+						<CustomMenuItem hash="B79F4061EE26711BDE238F315681CC26" index="0" isSubMenuItem="False" isSeparatorItem="False">
+							<UUID>E9350ACE-B1B0-4EAE-A515-246DE2DE71E8</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Command name="FileMaker Community" id="49312"></Command>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+						<CustomMenuItem hash="6DBB4A79CE1A6FF4CFC01248157138DA" index="1" isSubMenuItem="False" isSeparatorItem="True">
+							<UUID>D3D228AC-DB21-4EF1-907B-82AA20114066</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+						<CustomMenuItem hash="B0ED9D98DAB2FA57FD6A756F3CCED81F" index="2" isSubMenuItem="False" isSeparatorItem="False">
+							<UUID>58B3D443-D150-4C1A-A11B-E1A062E8508E</UUID>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Command name="Close" id="57602"></Command>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+						<CustomMenuItem hash="1001B7E9B09E6C6CBA0ACC8F2ABC3C58" index="3" isSubMenuItem="True" isSeparatorItem="False">
+							<UUID>904FCD11-4178-45C2-BFF5-C99CCA68D191</UUID>
+							<CustomMenuReference id="24" name="[Hosts]"></CustomMenuReference>
+							<Conditions>
+								<Install>
+									<Calculation>
+										<Text><![CDATA[1]]></Text>
+									</Calculation>
+								</Install>
+							</Conditions>
+							<Override name="False" action="False" Shortcut="False"></Override>
+						</CustomMenuItem>
+					</MenuItemList>
+					<Conditions>
+						<Install>
+							<Calculation>
+								<Text><![CDATA[1]]></Text>
+							</Calculation>
+						</Install>
+					</Conditions>
+					<Comment></Comment>
+					<Options browseMode="True" findMode="True" previewMode="True">
+						<Override>
+							<Title>
+								<Calculation>
+									<Text><![CDATA["TestMenuTitle2"]]></Text>
+								</Calculation>
+							</Title>
+						</Override>
+					</Options>
+				</CustomMenu>
+				
+			</Replace>
+		</ReplaceAction>
+
+	</Structure>
+</FMUpgradeToolPatch>
