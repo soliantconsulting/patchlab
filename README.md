@@ -7,6 +7,10 @@ This tool helps FileMaker developers explore the Save-as-XML (SaXML) format and 
 - 🧰 Build your own patch files
 - 📦 Share patch files with ease
 
+## Credentials
+
+- Log in with dev/dev
+
 ## Dependencies
 
 - macOS only — built for and tested on macOS.
